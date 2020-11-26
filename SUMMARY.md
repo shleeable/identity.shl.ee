@@ -12,8 +12,12 @@
 * [IOT](glossary-and-acronyms/iot.md)
 * [CDR \(Consumer Data Right\)](glossary-and-acronyms/cdr-consumer-data-right.md)
 
----
+## Ping Identity
 
-* [Untitled](untitled-1.md)
-* [Untitled](untitled.md)
+* [Certification / Courses](ping-identity/certification-courses/README.md)
+  * [Cert Notes – PingFederate](ping-identity/certification-courses/cert-notes-pingfederate.md)
+  * [Cert Notes – PingAccess](ping-identity/certification-courses/cert-notes-pingaccess.md)
+  * [Cert Notes – PingDirectory](ping-identity/certification-courses/cert-notes-pingdirectory.md)
+* [Untitled](ping-identity/untitled-2.md)
+* [Untitled](ping-identity/untitled-1.md)
 
