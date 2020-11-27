@@ -138,7 +138,44 @@ For _all other Linux OSes_, there is a full distro zip. Configuration/daemon set
 
 ### Initial Config Wizard using Admin console
 
-??
+Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by default - this can be replaced later.
+
+* Accept the PingFed Licence Agreement \(Most definitely read the whole thing... yeah...\)
+* Optional: Connect to PingOne if you have one premade.
+* Upload the PingFed License File
+* Pick the BASE URL as a FQDN \(Example: https://admin.pingfed.darkarts.club:9031\)
+* Pick an ENTITYID. I assume this is a unique identifier. \(Example: MyPingFedInstance\)
+* Pick the Server Roles \(there can be enabled/disabled later\)
+  * Identity Provider
+  * Service Provider
+  * OAuth Authorisation Server
+* Optional: Connect to a Microsoft Active Directory Domain
+* Pick the username/password for the administrator account.
+* View configuration summary
+* Complete the wizard. `Click Done`.
+
+### Upgrading
+
+* Ping recommend performing the upgrade in a test environment.
+* PingFed can be updated using the installer but I recommend the Upgrade Utility
+* PingFed supports using the PingFed Upgrade Utility on Windows/RHEL/Other Linux.
+* The PingFed Upgrade will **only copy** existing integration kids to the updated release - 
+* To upgrade integration kits after the PingFed upgrade, download the integration packages from the PingFed Webpage as usual.
+
+### Upgrade Checklist
+
+* Read the PingFed Release Notes / Upgrade guide for every releas
+* Obtain a new license key is required
+* Confirm the JRE version required and update the JAVA\_HOME/PATH env vars if required.
+* Complete any unfinished/draft connections as they will be deleted
+
+
+
+
+
+
+
+
 
 
 
