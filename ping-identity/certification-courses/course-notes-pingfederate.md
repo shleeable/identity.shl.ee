@@ -191,7 +191,7 @@ Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by defaul
 * Upgrade the PingFed instance using the install script
   * to upgrade an existing PingFed 9 to 9.2.0 `c./pf-install.sh -u -f /opt/PingIdentity/pingfederate-9etc -o /opt/PingIdentity/pingfederate-9.2.0`
 * View the upgrade logs for any errors/warnings
-* Reset the PingFed Instance manually
+* Reset the PingFed Instance manually \(update systemd service paths if required\)
 
 ### Upgrade Process for RHEL \(using the upgrade utility\)
 
@@ -201,7 +201,7 @@ Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by defaul
 * Upgrade the PingFed using the upgrade utility
   * To upgrade from 9.1.4 to 9.2.`./tmp/pf-upgrade-9.2.0/bin/upgrade "/opt/PingIdentity/pingfederate-9etc" "/opt/PingIdentity/pingfederate-9.2.0" "<path to pingfederate-9.2.0.zip>"` 
 * View the upgrade logs for any errors/warnings
-* Reset the PingFed Instance manually
+* Reset the PingFed Instance manually \(update systemd service paths if required\)
 
 ### Post-Upgrade tasks
 
