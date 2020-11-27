@@ -1,2 +1,2 @@
-# Cert Notes – PingDirectory
+# Course Notes – PingDirectory
 

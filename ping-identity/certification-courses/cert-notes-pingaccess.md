@@ -1,2 +1,2 @@
-# Cert Notes – PingAccess
+# Course Notes – PingAccess
 
