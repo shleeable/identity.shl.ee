@@ -136,7 +136,9 @@ For _all other Linux OSes_, there is a full distro zip. Configuration/daemon set
 * Complete the script prompts to setup the service as a daemon using systemd
 * The PingFed Admin Portal should be avaiable now - https://localhost:9999/pingfederate/app
 
+### Initial Config Wizard using Admin console
 
+??
 
 
 
