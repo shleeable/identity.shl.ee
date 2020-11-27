@@ -208,13 +208,5 @@ Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by defaul
 * Review database changes and log configurations
 * Copy any customerised files or settings to the new installation such as Velocity HTML templates for user facing scenes, email notifications, and custom Jetty/JBOSS configurations.
 
-###  Administrative Console Introduction
-
-gg
-
-
-
-
-
 
 
