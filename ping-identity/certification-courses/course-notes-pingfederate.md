@@ -157,7 +157,7 @@ Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by defaul
 ### Upgrading
 
 * Ping recommend performing the upgrade in a test environment.
-* PingFed can be updated using the installer but I recommend the Upgrade Utility
+* PingFed can be updated using the installer on Windows to automatically update the Windows Services paths.
 * PingFed supports using the PingFed Upgrade Utility on Windows/RHEL/Other Linux.
 * The PingFed Upgrade will **only copy** existing integration kids to the updated release - 
 * To upgrade integration kits after the PingFed upgrade, download the integration packages from the PingFed Webpage as usual.
@@ -169,19 +169,46 @@ Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by defaul
 * Confirm the JRE version required and update the JAVA\_HOME/PATH env vars if required.
 * Complete any unfinished/draft connections as they will be deleted
 
+### Upgrade Process for Windows Server \(using the MSI\)
 
+* Download the PingFed Installer MSI
+* Click next twice
+* View the upgrade logs for any errors/warnings.
+* Complete the MSI Upgrade stage \(should be running now as a windows service\)
 
+### Upgrade Process for Windows Server \(using the upgrade utility\)
 
+* Download the PingFed Upgrade Utility
+* Read the utility documentation
+* Upgrade the PingFed using the upgrade utility
+  * To upgrade from 9.1.4 to 9.2.0`c:\pf-upgrade-9.2.0\bin\upgrade "<path to 9.1.4>" "<path to 9.2.0>" "<path to pingfederate-9.2.0.zip>"` 
+* Fix the broken path for PingFederate Windows Service \(not required using MSI installer\)
 
+### Upgrade Process for RHEL \(using the installation script\)
 
+* Download the PingFed Installation Script for the new version
+* Read the script documentation
+* Upgrade the PingFed instance using the install script
+  * to upgrade an existing PingFed 9 to 9.2.0 `c./pf-install.sh -u -f /opt/PingIdentity/pingfederate-9etc -o /opt/PingIdentity/pingfederate-9.2.0`
+* View the upgrade logs for any errors/warnings
+* Reset the PingFed Instance manually
 
+### Upgrade Process for RHEL \(using the upgrade utility\)
 
+* Download the PingFed Upgrade Utility
+* Download the PingFed 9.2.0 Disto zip
+* Read the utility documentation
+* Upgrade the PingFed using the upgrade utility
+  * To upgrade from 9.1.4 to 9.2.`./tmp/pf-upgrade-9.2.0/bin/upgrade "/opt/PingIdentity/pingfederate-9etc" "/opt/PingIdentity/pingfederate-9.2.0" "<path to pingfederate-9.2.0.zip>"` 
+* View the upgrade logs for any errors/warnings
+* Reset the PingFed Instance manually
 
+### Post-Upgrade tasks
 
+* Review database changes and log configurations
+* Copy any customerised files or settings to the new installation such as Velocity HTML templates for user facing scenes, email notifications, and custom Jetty/JBOSS configurations.
 
-
-
-
+ 
 
 
 
