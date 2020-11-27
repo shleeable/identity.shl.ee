@@ -134,13 +134,13 @@ For _all other Linux OSes_, there is a full distro zip. Configuration/daemon set
 * Pick the PingFed Runtime Engine HTTPS TCP Port \(Default is 9031\)
   * Supports a secondary HTTPS Port for additional security measures \(used with WS-Federation or SAML artifact binding types\)
 * Complete the script prompts to setup the service as a daemon using systemd
-* The PingFed Admin Portal should be avaiable now - https://localhost:9999/pingfederate/app
+* The PingFed Admin Portal should be available now - https://localhost:9999/pingfederate/app
 
 ### Initial Config Wizard using Admin console
 
 Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by default - this can be replaced later.
 
-* Accept the PingFed Licence Agreement \(Most definitely read the whole thing... yeah...\)
+* Accept the PingFed License Agreement \(Most definitely read the whole thing... yeah...\)
 * Optional: Connect to PingOne if you have one premade.
 * Upload the PingFed License File
 * Pick the BASE URL as a FQDN \(Example: https://admin.pingfed.darkarts.club:9031\)
@@ -208,7 +208,11 @@ Note: the PingFed Admin portal creates a selfsigned TLS cert for HTTPS by defaul
 * Review database changes and log configurations
 * Copy any customerised files or settings to the new installation such as Velocity HTML templates for user facing scenes, email notifications, and custom Jetty/JBOSS configurations.
 
- 
+###  Administrative Console Introduction
+
+gg
+
+
 
 
 
