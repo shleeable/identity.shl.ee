@@ -98,9 +98,45 @@ PingAccess - Identity enabled access management product. protects webapps/APIs b
 * Set JAVA\_HOME and PATH environment vars at system level
 * Request a license key
 
-For Windows, use the MSI.  
-For RHEL, use bash install script.  
-For all OSes, there is a full distro zip.
+For _Windows_, use the MSI.  
+For _RHEL_, use bash install script to automatically download/install as a daemon using systemd.  
+For _all other Linux OSes_, there is a full distro zip. Configuration/daemon setup must be done manually.
+
+### Notes: PingFed Start up files
+
+* run.sh and run.bat in the &lt;install path/bin&gt; folder \(to m $$a = b$$ anually start the server in a console\)
+* run.properties \(contains settings that are only applied at startup\)
+
+### Installation Tasks on Windows Server
+
+* Run PingFed Installation MSI
+* Select Operational Mode
+  * Standalone \(For a single node that will operate independently\)
+  * Clustered Admin Node \(Only one node in a cluster can be the admin node\)
+  * Clustered  Runtime Node
+* Pick the PingFed Admin Console HTTPS/API TCP Port \(Default is 9999\)
+* Pick the PingFed Runtime Engine HTTPS TCP Port \(Default is 9031\)
+  * Supports a secondary HTTPS Port for additional security measures \(used with WS-Federation or SAML artifact binding types\)
+* Pick the PingFed install path
+* Complete the MSI Installation stage \(should be running now as a windows service\)
+* The PingFed Admin Portal should be avaiable now - https://localhost:9999/pingfederate/app
+
+### Installation Tasks on RHEL
+
+* Disable SELinux \(ONLY DURING INSTALLATION?\)
+* Download and run the installation script `./pf-install.sh` as root
+* Select Operational Mode
+  * Standalone \(For a single node that will operate independently\)
+  * Clustered Admin Node \(Only one node in a cluster can be the admin node\)
+  * Clustered  Runtime Node
+* Pick the IP the admin console should bind \(Default to 0.0.0.0\)
+* Pick the PingFed Admin Console HTTPS/API TCP Port \(Default is 9999\)
+* Pick the PingFed Runtime Engine HTTPS TCP Port \(Default is 9031\)
+  * Supports a secondary HTTPS Port for additional security measures \(used with WS-Federation or SAML artifact binding types\)
+* Complete the script prompts to setup the service as a daemon using systemd
+* The PingFed Admin Portal should be avaiable now - https://localhost:9999/pingfederate/app
+
+
 
 
 
