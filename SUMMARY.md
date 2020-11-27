@@ -19,6 +19,4 @@
   * [Course Notes - PingFederate 2](ping-identity/certification-courses/course-notes-pingfederate-2.md)
   * [Course Notes – PingAccess](ping-identity/certification-courses/course-notes-pingaccess.md)
   * [Course Notes – PingDirectory](ping-identity/certification-courses/course-notes-pingdirectory.md)
-* [Untitled](ping-identity/untitled-2.md)
-* [Untitled](ping-identity/untitled-1.md)
 

@@ -49,7 +49,11 @@ Protocol Endpoints: list of all of the protocol endpoints for this PingFeds SP R
 
 "Manage links to affiliated service partners as defined by the SAML 2.0 Spec."
 
+### OAuth Server
 
+Authorisation Server
+
+Auth
 
 
 
