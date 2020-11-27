@@ -54,7 +54,7 @@ PingAccess - Identity enabled access management product. protects webapps/APIs b
   * Apline 3.10 
 * Hardware Requirements
   * Minimum recommendations
-    * multi core intel xeon. 4 CPU/cores or higher
+    * multi core Intel xeon. 4 CPU/cores or higher
     * 4GB of memory with 1.5GB for PingFed
     * 1GB of Disk 
 * PingFed is a Java App - Supports
@@ -63,11 +63,11 @@ PingAccess - Identity enabled access management product. protects webapps/APIs b
   * OpenJDK 11
   * Amazon Corretto 8
   * Amazon Corretto 11
-  * "Other JREs can be used and may be suported on a best effort basis" 
+  * "Other JREs can be used and may be supported on a best effort basis" 
 * Web browser support
   * Runtime Server
     * Google Chrome
-    * Google Andorid Chrome 9
+    * Google Android Chrome 9
     * Mozilla Firefox
     * Apple Safari
     * Apple Safari iOS
@@ -82,8 +82,8 @@ PingAccess - Identity enabled access management product. protects webapps/APIs b
   * Port 9031 TCP - Runtime Engine
   * 443 TCP - HTTPS
   * 88 TCP/UDP - Active Directory and Kerberos Realms 
-* Data Store Intergration
-  * for Attribute Lookup, Privisioning, OAuth client config and OAuth persistent grants
+* Data Store Integration
+  * for Attribute Lookup, Provisioning, OAuth client config and OAuth persistent grants
     * Ping Directory
     * Microsoft Active Directory
     * Oracle Directory Service Enterprise Edition
@@ -96,7 +96,7 @@ PingAccess - Identity enabled access management product. protects webapps/APIs b
 
 * Install a supported version of java
 * Set JAVA\_HOME and PATH environment vars at system level
-* Request a licence key
+* Request a license key
 
 For Windows, use the MSI.  
 For RHEL, use bash install script.  
