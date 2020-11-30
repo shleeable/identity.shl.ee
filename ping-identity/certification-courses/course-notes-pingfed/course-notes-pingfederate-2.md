@@ -51,9 +51,32 @@ Protocol Endpoints: list of all of the protocol endpoints for this PingFeds SP R
 
 ### OAuth Server
 
-Authorisation Server
+#### Authorization Server
 
-Auth
+Authorization Server Settings
+
+Scope Management
+
+Client Settings
+
+Client Registration Policies
+
+#### Grant Mapping
+
+IdP Adapter Mapping
+
+Authenication Policy Contract Mapping
+
+Resource owner credentials Mapping
+
+#### Clients
+
+?
+
+  
+
+
+
 
 
 
