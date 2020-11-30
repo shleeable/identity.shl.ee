@@ -97,8 +97,6 @@ Notes: "Config for mapping user attributes into the persistent grant DB. Mapping
 Notes: "List of all the clients configured on the server. Add/modify or delete"
 {% endhint %}
 
-?
-
 ### Token Mapping
 
 {% hint style="info" %}

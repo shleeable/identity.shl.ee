@@ -18,6 +18,7 @@
   * [Course Notes - PingFed](ping-identity/certification-courses/course-notes-pingfed/README.md)
     * [Course Notes – PingFederate 1](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate.md)
     * [Course Notes - PingFederate 2](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate-2.md)
+    * [Course Notes - PingFederate 3](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate-3.md)
   * [Course Notes – PingAccess](ping-identity/certification-courses/course-notes-pingaccess.md)
   * [Course Notes – PingDirectory](ping-identity/certification-courses/course-notes-pingdirectory.md)
 
