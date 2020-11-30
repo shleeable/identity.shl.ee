@@ -5,33 +5,44 @@
 * Login to the admin console. `https://pf.int.course-ping.com:9999:/pingfederate/app`
 * On the left of the console, each enabled server role should be displayed. Server Configuration should be shown below.
 
+![Administrator Menu with all three roles enabled.](../../../.gitbook/assets/image.png)
+
 ### Identity Provider
 
 #### Application Integration
 
-Adapters: "Connects to your authentication and user store backend"?
+{% hint style="info" %}
+Notes: "Used to create adapters which will connect to your authentication and user store backend"
+{% endhint %}
 
-Default URL:
-
-Application Endpoints:
+* Adapters: 
+* Default URL:
+* Application Endpoints:
 
 #### Authentication Policies
 
-Policies:
+{% hint style="info" %}
+Notes: "manage your authentication policies, selectors and contracts for the IdP role"
+{% endhint %}
 
-Selectors:
-
-Policy Contracts:
-
-Sessions:
+* Policies:
+* Selectors:
+* Policy Contracts:
+* Sessions:
 
 #### Local Identity
 
-Identity Profiles: Allow users to authenticate against a third party Identity Provider
+{% hint style="info" %}
+Notes: "Allow users to authenticate against a third party Identity Provider"
+{% endhint %}
+
+* Identity Profiles: 
 
 #### SP Connections
 
-Note: Shows your SP \(Service Provider\) Connections.
+{% hint style="info" %}
+Notes: Shows your SP \(Service Provider\) Connections.
+{% endhint %}
 
 ### Service Provider
 
@@ -39,11 +50,11 @@ Note: Shows your SP \(Service Provider\) Connections.
 
 Note: "Provided for special use cases when PingFed is acting as both an IdP and an SP... user attributes from an IdP adapter are used to create an authentication session via an SP adapter on the same PingFed Server"
 
-Adapter-to-Adapter Mappings: 
+* Adapter-to-Adapter Mappings: 
 
 #### Federation Info
 
-Protocol Endpoints: list of all of the protocol endpoints for this PingFeds SP Role
+* Protocol Endpoints: list of all of the protocol endpoints for this PingFeds SP Role
 
 #### SP Affiliations
 
@@ -53,25 +64,50 @@ Protocol Endpoints: list of all of the protocol endpoints for this PingFeds SP R
 
 #### Authorization Server
 
-Authorization Server Settings
+{% hint style="info" %}
+Notes: 
+{% endhint %}
 
-Scope Management
-
-Client Settings
-
-Client Registration Policies
+*  Authorization Server Settings
+* Scope Management
+* Client Settings
+* Client Registration Policies
 
 #### Grant Mapping
 
-IdP Adapter Mapping
+{% hint style="info" %}
+Notes: 
+{% endhint %}
 
-Authenication Policy Contract Mapping
+* IdP Adapter Mapping
+* Authenication Policy Contract Mapping
+* Resource owner credentials Mapping
 
-Resource owner credentials Mapping
+{% hint style="info" %}
+ROPC \(Resource Owner Password Credentials\) Grant Type:
+{% endhint %}
 
 #### Clients
 
 ?
+
+### Server Configuration
+
+#### Token Mapping
+
+{% hint style="info" %}
+Notes: Controls now attribute are mapped to access tokens. Also configure OpenID Connect polices and mappings.
+{% endhint %}
+
+* Access Token Management: 
+
+#### Authorization Server Info
+
+{% hint style="info" %}
+Notes: 
+{% endhint %}
+
+* OAuth Endpoints
 
   
 
