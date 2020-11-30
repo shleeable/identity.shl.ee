@@ -15,7 +15,7 @@ Controls the admin console and runtime behaviour of PingFed
 * **pf.console.title**: unique name on the console. 
 * **pf.console.session.timeout**: inactive timeout. 1m min. 480max. 30 default.
 * **pf.console.authentication**: indicates admins login using creds managed locally or externally
-* **pf.console.login.mode**: Single or Multiple
+* **pf.console.login.mode**: "Single" or "Multiple"
 * **pf.log.eventdetail**: detailed event logging of console actions. default is disabled.
 * **pg.admin.api.authentication**:  Defines authentication method by admin API
 * **ldap.properties.file**: If LDAP is enabled, path to config file.
