@@ -17,7 +17,7 @@ Controls the admin console and runtime behavior of PingFed
 * **pf.console.authentication**: indicates admins login using creds managed locally or externally
 * **pf.console.login.mode**: "Single" or "Multiple"
 * **pf.log.eventdetail**: detailed event logging of console actions. default is disabled.
-* **pg.admin.api.authentication**:  Defines authentication method by admin API
+* **pf.admin.api.authentication**:  Defines authentication method by admin API
 * **ldap.properties.file**: If LDAP is enabled, path to config file.
 * **cert.properties.file:** ?
 * **radius.properties.file**: ? 
@@ -49,6 +49,34 @@ Linux daemon files can be found in the &lt;PingFed\sbin\linux&gt;
 
 JVM and garbage collection options can be modified from the &lt;PingFed/bin/jvm-memory.options&gt; file.  
 PingFed must be restarted to applied any chances to the file.
+
+## Administrator Console SSO \(LDAP/LDAPS\)
+
+Both of the admin console and API can seperately be controlled using an external LDAP for Authentication. Using LDAP will disable access to the local user accounts and role settings.
+
+* **pf.console.authentication**
+* **pf.admin.api.authentication**
+
+The `ldap.properties.file` must have the required attributes
+
+* **ldap.url**: protocol and address for LDAP server. Multiple LDAPs separated by a space for fallover \(tested in order\).
+* **ldap.username**: username for the account in the LDAP Directory used to perform user lookups.
+* **ldap.password:** matching password - Use the `<pingfed/bin/obfuscate.bat> or obfuscate.sh` as to not store plain-text passwords in the file
+* **search.base**: Location in the LDAP directory to search for users etc.
+* **search.filter:** Mapped attributes from the login form to the user objects.
+
+Role Mapping while using LDAP/LDAPS
+
+Using the `ldap.properties.file` add the following attributes
+
+* role.admin=user1, user2
+* role.userAdmin=user1
+* role.cryptoManager=user2
+* role.auditor=user3
+
+## License Management
+
+ff
 
 
 
