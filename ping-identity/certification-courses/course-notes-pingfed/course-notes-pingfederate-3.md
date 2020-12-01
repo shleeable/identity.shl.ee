@@ -52,7 +52,9 @@ PingFed must be restarted to applied any chances to the file.
 
 ## Administrator Console SSO \(LDAP/LDAPS\)
 
-Both of the admin console and API can seperately be controlled using an external LDAP for Authentication. Using LDAP will disable access to the local user accounts and role settings.
+Both of the admin console and API can separately be controlled using an external LDAP for Authentication. Using LDAP will disable access to the local user accounts and role settings.
+
+Using LDAPS, make sure the root CA is in the trusted root store in the instance.
 
 * **pf.console.authentication**
 * **pf.admin.api.authentication**
@@ -76,7 +78,7 @@ Using the `ldap.properties.file` add the following attributes
 
 ## License Management
 
-ff
+Licenses can be 
 
 
 
