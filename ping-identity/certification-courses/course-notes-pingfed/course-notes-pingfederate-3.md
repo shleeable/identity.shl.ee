@@ -2,13 +2,13 @@
 
 ## Startup Files
 
-PingFed startup is controlled by the `run.properties` and the `run.sh/run.bat` files located in the &lt;pingfed&gt;/bin directory.
+PingFed startup is controlled by the `run.properties` and the `run.sh/run.bat` files located in the `<pingfed>/bin` directory.
 
 Changes to the startup files will require a restart to take effect
 
 ## run.properties file
 
-Controls the admin console and runtime behaviour of PingFed
+Controls the admin console and runtime behavior of PingFed
 
 * **pf.console.bind.address**: bind console to one or multiple NICs
 * **pf.admin.https.port**: admin console port. default 9999
