@@ -168,7 +168,15 @@ Notes: "Configure PCVs \(Password Credential Validators\)"
 
 The console "tasks" makes use of wizards in the console. Allowing admins to complete step by step. there is a summary at the end of the wizards before it is applied.
 
-##  PingFed Admin console - Admin account management
+## PingFed Account Management
+
+* Access via Server Configuration -&gt; Account Management \(under administrative functions\)
+
+Accounts are shared between the admin console and the admin API.
+
+Three failed logins will lock the account for 1 minute.
+
+### PingFed Account Modes
 
 PingFed supports Single-user administrator mode or multi-user administrator mode.
 
@@ -177,9 +185,9 @@ PingFed supports Single-user administrator mode or multi-user administrator mode
 * RADIUS
 * x509 certs
 
-## PingFed Admin console - Role based access control for Users
+### RBAC \(Role Based Access Control\) for Users
 
-Local users for Pingred is managed using roles.
+Local users for PingFed is managed using roles.
 
 * Account Types \(Admin and Auditor\)
   * Admin has three different privileged roles
@@ -189,7 +197,18 @@ Local users for Pingred is managed using roles.
   * Crypto admin role: Config local keys and certs
   * User Admin role: Config local PingFed user accounts
 
+### Create new user \(native account\)
 
+* In the account Management screen, click `Create User`.
+* Complete the wizard with username/email/etc \(fields with  an orange mark are required\)
+* Type in the password or Generate a unique one time password.
+* Confirm the details in the summary screen and click save.
+* Set the admin roles \(User Admin, Crypto Admin, and/or Admin\) or the Auditor role \(read only\).
+* Click Save to confirm/Commit these changes.
+
+On the users first login, they will be required to change the password.
+
+ 
 
 
 

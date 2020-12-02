@@ -100,11 +100,3 @@ Edit the `/pingfederate/server/default/conf/template/heartbeat.page.template` Ve
 
 
 
-
-
-
-
-
-
-
-
