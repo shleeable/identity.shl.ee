@@ -6,7 +6,7 @@
 Notes: "Endpoints provide a methods for outside parties to retrieve information about PingFed without using the admin console or admin API"
 {% endhint %}
 
-Endpoints are HTTP requests .
+Endpoints are HTTP requests. `https://pf.bob.com/pf/heartbeat.ping`
 
 ### System Services Endpoints
 
