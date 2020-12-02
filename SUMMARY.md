@@ -6,6 +6,7 @@
 ## Glossary and Acronyms
 
 * [General Identity](glossary-and-acronyms/general-identity.md)
+* [Other Identity](glossary-and-acronyms/other-identity.md)
 * [Crypto / PKI](glossary-and-acronyms/crypto-pki.md)
 * [Standard Organizations](glossary-and-acronyms/standard-organizations.md)
 * [‌Microsoft Windows](glossary-and-acronyms/microsoft-windows.md)
