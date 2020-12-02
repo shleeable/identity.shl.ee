@@ -106,10 +106,6 @@ in the `<PingFed/server/default/conf/template/mail-notifications>` directory.
 Note: The Email Server Settings are required. SMTP mail server required \(from address, email smtp server, port, user/pass etc\)
 {% endhint %}
 
-## Heartbeat
-
-Edit the `/pingfederate/server/default/conf/template/heartbeat.page.template` Velocity template file to specify the desired information to be returned by the heartbeat endpoint. \(An inline sample is provided. Template customization does not require a restart of PingFederate.\)
-
 ## Configuration Archives
 
 Allows administrators to backup the console configurations. Archives can be configured automatically \(every time an admin logs in\) or on-demand.
@@ -137,8 +133,6 @@ To enable them edit the `<PingFed/server/default/date/config-store/org.sourceid.
 ### Exporting/Importing Configuration Archives
 
 Using the Configuration Archive wizard. Select Import or Export and follow the wizard.
-
-
 
 
 
