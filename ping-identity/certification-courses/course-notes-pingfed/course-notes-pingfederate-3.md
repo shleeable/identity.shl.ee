@@ -86,17 +86,59 @@ A copy of the previous licence are stored as backup in the &lt;PingFed/server/co
 
 ![](../../../.gitbook/assets/image%20%281%29.png)
 
-### Email Notification
+## Email Notification
 
-You can configure the PingFed Instance to send email to warn of an upcoming expiry of the license.
+You can configure the PingFed Instance to send email to warn of an 
 
-* Server Configuration -&gt; Server Settings -&gt; Runtime Notifications -&gt; Tick Server licensing events
+* Upcoming expiry of the license
+* SSL Certificate events
+* SAML Metadata Updates
 
+Configure the notifications using the admin console
+
+* Server Configuration -&gt; Server Settings -&gt; Runtime Notifications
+
+### PingFed Email Templates
+
+in the `<PingFed/server/default/conf/template/mail-notifications>` directory.
+
+{% hint style="info" %}
 Note: The Email Server Settings are required. SMTP mail server required \(from address, email smtp server, port, user/pass etc\)
+{% endhint %}
 
 ## Heartbeat
 
 Edit the `/pingfederate/server/default/conf/template/heartbeat.page.template` Velocity template file to specify the desired information to be returned by the heartbeat endpoint. \(An inline sample is provided. Template customization does not require a restart of PingFederate.\)
+
+## Configuration Archives
+
+Allows administrators to backup the console configurations. Archives can be configured automatically \(every time an admin logs in\) or on-demand.
+
+Archives are added to the `<PingFed/server/defaul/data/archive>` folder.
+
+Only items/settings modified in the admin console are part of the archived backup file.
+
+### Things not included in the config archives
+
+These need to be backed up manually/optionally
+
+* Launch scripts under the &lt;PingFed/bin&gt; and /sbin folder
+* Web container config files under &lt;PingFed/etc&gt; folder.
+* Log files under the &lt;PingFed/log&gt; folder.
+* Database drivers and program files form adatpers and other plugins under the &lt;PingFed/server/default/lib&gt; and &lt;PingFed/server/default/deploy&gt; folders.
+* Other files under the &lt;PingFed/server/default/conf&gt; folder.
+
+### Scheduled Backups for Configuration Archives
+
+These are disabled by default.
+
+To enable them edit the `<PingFed/server/default/date/config-store/org.sourceid.saml20.domain.mgmt.impl.DataArchiveBackup.xml>` File.
+
+### Exporting/Importing Configuration Archives
+
+Using the Configuration Archive wizard. Select Import or Export and follow the wizard.
+
+
 
 
 
