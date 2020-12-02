@@ -190,12 +190,12 @@ PingFed supports Single-user administrator mode or multi-user administrator mode
 Local users for PingFed is managed using roles.
 
 * Account Types \(Admin and Auditor\)
-  * Admin has three different privileged roles
-  * Auditor is a read only account for all admin functions
+  * **Admin** has three different privileged roles
+  * **Auditor** is a read only account for all admin functions
 * Admin Roles \(Admin, Crypto Admin and User Admin\)
-  * Admin role: Config partner connections. Can't modify local PingFed user accounts, or local keys and certs.
-  * Crypto admin role: Config local keys and certs
-  * User Admin role: Config local PingFed user accounts
+  * **Admin role**: Config partner connections. Can't modify local PingFed user accounts, or local keys and certs.
+  * **Crypto admin role:** Config local keys and certs
+  * **User Admin role**: Config local PingFed user accounts
 
 ### Create new user \(Native PingFed Account\)
 
