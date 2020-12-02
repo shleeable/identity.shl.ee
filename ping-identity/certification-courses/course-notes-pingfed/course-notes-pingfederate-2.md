@@ -197,7 +197,7 @@ Local users for PingFed is managed using roles.
   * Crypto admin role: Config local keys and certs
   * User Admin role: Config local PingFed user accounts
 
-### Create new user \(native account\)
+### Create new user \(Native PingFed Account\)
 
 * In the account Management screen, click `Create User`.
 * Complete the wizard with username/email/etc \(fields with  an orange mark are required\)
