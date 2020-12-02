@@ -49,11 +49,13 @@ SSL/TLS is the standard for establishing encrypted links between web services \(
 
 The encryption is handled using certificates, and certificates are used to validate ownership of a FQDN using PKI \(Public key infrastructure\).
 
-### PingFed default certificates
+### PingFed default \(selfsigned\) Certificates
 
 On installation, PingFed will generate some selfsigned certs for localhost that need to be replaced for the admin console and the Runtime Engine.
 
-These default certs can be changed at any time.
+These default certs can be changed at any time in the admin console. Clicking **SSL Server Certificates** and clicking Create New or Import.
+
+
 
 \*\*\*\*
 
