@@ -82,7 +82,9 @@ Licenses can be
 
 
 
+## Heartbeat
 
+Edit the `/pingfederate/server/default/conf/template/heartbeat.page.template` Velocity template file to specify the desired information to be returned by the heartbeat endpoint. \(An inline sample is provided. Template customization does not require a restart of PingFederate.\)
 
 
 
