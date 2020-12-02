@@ -76,11 +76,23 @@ Using the `ldap.properties.file` add the following attributes
 * role.cryptoManager=user2
 * role.auditor=user3
 
-## License Management
+## License Management \(+ expiry email notification\)
 
-Licenses can be 
+Licenses can expire, and a new license can be uploaded using the console without restarting the instance.
 
+* Server Configuration -&gt; Licence Management \(under administrative function\) -&gt; Upload new licence -&gt; click Import -&gt; Confirm Import - &gt; Click Save
 
+A copy of the previous licence are stored as backup in the &lt;PingFed/server/conf&gt; folder. 
+
+![](../../../.gitbook/assets/image%20%281%29.png)
+
+### Email Notification
+
+You can configure the PingFed Instance to send email to warn of an upcoming expiry of the license.
+
+* Server Configuration -&gt; Server Settings -&gt; Runtime Notifications -&gt; Tick Server licensing events
+
+Note: The Email Server Settings are required. SMTP mail server required \(from address, email smtp server, port, user/pass etc\)
 
 ## Heartbeat
 
