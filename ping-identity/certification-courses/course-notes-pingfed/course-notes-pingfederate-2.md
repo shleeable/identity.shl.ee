@@ -180,8 +180,10 @@ Three failed logins will lock the account for 1 minute.
 
 PingFed supports Single-user administrator mode or multi-user administrator mode.
 
-* Native authentication
-* LDAP
+### PingFed Admin Account SSO
+
+* Native Authentication \(PingFed local users\)
+* LDAP \(Kerb users or groups\)
 * RADIUS
 * x509 certs
 
