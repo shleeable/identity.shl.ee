@@ -1,4 +1,4 @@
-# Course Notes – PingFederate 1
+# Course Notes - PingFederate 1
 
 ### Technologies and Concepts \(Recommended Reading\):
 

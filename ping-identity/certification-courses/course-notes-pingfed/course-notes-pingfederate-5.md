@@ -37,7 +37,7 @@ PingFed requires the JDBC driver to be installed for the DB you wish to use. The
 * Click next and PingFed will validate the details.
 * View the summary and click Save to commit these changes.
 
-## Advanced LDAP Options
+### Advanced LDAP Options
 
 * **Test connection on borrow**: Validate objects before borrowing by the pool. Not enabled by default.
 * **Test connection on return:** Validate object before returning to the pool. Not enabled by default.
@@ -53,12 +53,27 @@ PingFed requires the JDBC driver to be installed for the DB you wish to use. The
 * **LDAP DNS SRV RECORD PREFIX**: . Default to `_ldap._tcp`
 * **LDAPS DNS SRV RECORD PREFIX**: . Default to `_ldaps._tcp`
 
-## Advanced JDBC Options
+### Advanced JDBC Options
 
 * **Minimum Pool Size**: Smallest number of connections in the pool for this Data store.  _Note: If the service is new or unused, the actual connections might be lower than the minimum until they are established._
 * **Maximum Pool Size**: larger number of connections in the pool for this Data store.
 * **Blocking timeout \(Milliseconds\)**: Time to wait for a connection from the connection pool before it fails and returns an error.
 * **Idle Timeout \(milliseconds\)**: Time to wait before the connection is idle before it is closed. Once the pool is established, the minimum pool size is applied.
+
+## Attribute Mapping
+
+Attribute mapping is used to associate properties about the specific user with their current login session.  
+Attributes can be sent to a SP partner or used to create an authentication or identity token.
+
+### Attribute Contracts
+
+Attribute Contacts define what attribute are expected by the PingFed role.  
+Attribute Contracts apply to adapters, connections, and token mapping.  
+Attribute Contracts are fulfilled using attributes entered by the user at login \(username, domain, etc\) or by lookup to external data sources.
+
+### Connection Mapping
+
+Adapters such as the HTML form adapter 
 
 
 
