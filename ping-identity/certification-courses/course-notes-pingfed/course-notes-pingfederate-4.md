@@ -34,12 +34,14 @@ Edit the `/pingfederate/server/default/conf/template/heartbeat.page.template` Ve
 
 PingFed provides built-in cert management to handle SSL/TLS server security, as well as certificate signing and verification for SSO and other transactions. PingFed uses certs for multiple purposes.
 
+Note: PingFed generated Selfsigned certificates can be automatically rotated.
+
 ### Certificate and Key Management in the admin console
 
 * **Trusted CAs:** Import your partners root CA certs. This can be used for domains, LDAPS or other services using the CA.  _Note: It is not required to add any CA that is trusted by the java runtime truststore._
 * **SSL Server Certificates:**  _Note: "Manages access to the PingFed Admin Console, or incoming HTTP connections at runtime?"_
 * **SSL Client Keys & Certificates:** Used to identify the PingFed Server when it acting as a client in an outbound SSL/TLS transaction.
-* **Signing & Decryption Keys & Certificates:** Used to sign outbound requests/responses/assertions/Access tokens. The same type of certificate is used for decryption. Note: PingFed recommends using separate certificates for signing, and decryption.
+* **Signing & Decryption Keys & Certificates:** Used to sign outbound requests/responses/assertions/Access tokens. The same type of certificate is used for decryption. _Note: PingFed recommends using separate certificates for signing, and decryption._
 * **OAuth & OpenID Connect Keys:** Specifies if PingFed should use static or dynamic rotating keys for OAuth and OpenID Connect. These keys are used to sign ID Tokens, JWTs for client authentication and OpenID Connect request objects.
 * **Certificate Revocation Checking:** ?
 
@@ -54,6 +56,47 @@ The encryption is handled using certificates, and certificates are used to valid
 On installation, PingFed will generate some selfsigned certs for localhost that need to be replaced for the admin console and the Runtime Engine.
 
 These default certs can be changed at any time in the admin console. Clicking **SSL Server Certificates** and clicking Create New or Import.
+
+### Create new cert
+
+Fill in wizard. Fields with Orange bar are required.
+
+* Common Name / Org / Org Unit / Country / Expiry / Key Algo / Key Bit Size / Signing Hash Algo / Etc
+* Select if this new key is applied to the Runtime Engine and/or Admin console.
+* Click Save to commit these changes
+
+### Import cert
+
+Fill in wizard.
+
+* Import the p12 file containing the public/private key pair.
+* optional field for the p12 password if it's protected
+* Select if this new key is applied to the Runtime Engine and/or Admin console.
+* Click Save to commit these changes
+
+### Partner Keys
+
+Partner certificates can be used for signature verification on incoming messages, Encryption of outgoing messages, as well as back-channel authentication of inbound SOAP messages.
+
+
+
+## Trusted Authorities / Certificate Authorities CAs
+
+CAs act as a trusted third party, and can be imported into PingFed. This extends the trust anchors beyond the ones included in the local java CACERTS environment.
+
+{% hint style="info" %}
+Java CACERTS: _It is not required to add any CA that is trusted by the java runtime truststore._
+{% endhint %}
+
+Root CA Certs might be required when internal org or selfsigned certificates are being used.
+
+The Trusted CAs screen in the Admin Console allows for importing/exporting or deleting CAs.
+
+\*\*\*\*
+
+
+
+
 
 
 
