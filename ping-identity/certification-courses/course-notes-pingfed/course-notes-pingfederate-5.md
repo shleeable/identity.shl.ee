@@ -32,7 +32,8 @@ PingFed requires the JDBC driver to be installed for the DB you wish to use. The
 
 * Click `Add New Data Store` in the Data Stores screen
 * **Data Store Type:** Add Name \("User DB"\) and Select type \(Database JDBC\)
-* **Database Config**: JDBC URL \(_jdbc:mysql://localhost/userinfo_\), Driver Class \(_com.mysql.jdbc.Driver_\), username, password, validated connection sql is optional.
+* **Database Config**: JDBC URL \(_jdbc:mysql://localhost/userinfo_\), Driver Class \(_com.mysql.jdbc.Driver_\), username, password, validated connection sql field is optional.
+* Allow Multi-Value SQL is enabled by default.
 * Click next and PingFed will validate the details.
 * View the summary and click Save to commit these changes.
 
@@ -44,13 +45,20 @@ PingFed requires the JDBC driver to be installed for the DB you wish to use. The
 * **Verify LDAPS hostname**: Vertify the LDAP certificate. Enabled by default.
 * **Minimum connection**s: connections per pool \(bind pool/search pool\). A value of 1 opens 1 connection in both pools.  _Note: For optimal performance, Use 50% of the maxthreads value in the Jetty config -_ `Jetty.threadPool.maxThreads`
 * **Maximum connections**: Largest number of connections per tool. Equal or larger than the Minimum connections value.  _Note: For optional performance, use 75-100% of the maxthreads value in the Jetty config -_ `Jetty.threadPool.maxThreads`
-* **Maximum Wait \(milliseconds\)**: Maximum time the pools will wait for a connection to become avaiable. `-1` will cause the pool to make a new connection instead of using an existing connection or error if not avaiable.
+* **Maximum Wait \(milliseconds\)**: Maximum time the pools will wait for a connection to become avaiable. `-1` will cause the pool to make a new connection instead of using an existing connection or error if not available.
 * **Time between evictions \(milliseconds\)**: time between the evictor cleaning connections. `-1` will disable the evictions. Defaults to 60000
 * **Read Timeout \(milliseconds\)**: Time to wait for a response before returning an error. `-1` will make the wait forever. Defaults to 3000
 * **Connection Timeout \(milliseconds\)**: Time for a connection attempt before returning an error. `-1` will make the pool wait forever. Defaults to 3000
 * **DNS TTL \(milliseconds\)**: Time to cache the DNS SRV record. On TTL, PingFed will retrieve a refreshed DNS SRV record.
 * **LDAP DNS SRV RECORD PREFIX**: . Default to `_ldap._tcp`
 * **LDAPS DNS SRV RECORD PREFIX**: . Default to `_ldaps._tcp`
+
+## Advanced JDBC Options
+
+* **Minimum Pool Size**: Smallest number of connections in the pool for this Data store.  _Note: If the service is new or unused, the actual connections might be lower than the minimum until they are established._
+* **Maximum Pool Size**: larger number of connections in the pool for this Data store.
+* **Blocking timeout \(Milliseconds\)**: Time to wait for a connection from the connection pool before it fails and returns an error.
+* **Idle Timeout \(milliseconds\)**: Time to wait before the connection is idle before it is closed. Once the pool is established, the minimum pool size is applied.
 
 
 
