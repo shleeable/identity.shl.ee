@@ -92,13 +92,3 @@ Root CA Certs might be required when internal org or selfsigned certificates are
 
 The Trusted CAs screen in the Admin Console allows for importing/exporting or deleting CAs.
 
-\*\*\*\*
-
-
-
-
-
-
-
-\*\*\*\*
-
