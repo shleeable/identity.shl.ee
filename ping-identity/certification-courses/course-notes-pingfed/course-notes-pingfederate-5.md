@@ -63,19 +63,34 @@ PingFed requires the JDBC driver to be installed for the DB you wish to use. The
 ## Attribute Mapping
 
 Attribute mapping is used to associate properties about the specific user with their current login session.  
-Attributes can be sent to a SP partner or used to create an authentication or identity token.
+Attributes can be sent to a SP partner as part of an SSO transaction, or used to create an authentication or identity token via the OAuth Authorization server.
 
 ### Attribute Contracts
 
-Attribute Contacts define what attribute are expected by the PingFed role.  
-Attribute Contracts apply to adapters, connections, and token mapping.  
-Attribute Contracts are fulfilled using attributes entered by the user at login \(username, domain, etc\) or by lookup to external data sources.
+Attribute Contacts define what attribute are expected by the ??Login event?? using PingFed and what context.  
+Attribute Contracts apply to adapters, connections, and during OAuth/OpenID connection token mapping.  
+Attribute Contracts are fulfilled using attributes entered by the user at login \(username, domain, etc\) or by lookups to external data sources.
 
 ### Connection Mapping
 
-Adapters such as the HTML form adapter 
+Adapters such as the HTML form adapter has common attributes like "username"
 
+The connection might require SAML\_SUBJECT and Email... username can be mapped to SAML\_SUBJECT, but the Email requirement might be mapped from one of the data store using connection attribute mapping.
 
+![](../../../.gitbook/assets/image%20%282%29.png)
+
+Multiple connections might use a single adapter, but have common attributes shared on them such as email - if the additional user data such as email is stored in a data store. You should be able to retrieve the email using the username attribute from the adapter to pass onto those connections.
+
+![](../../../.gitbook/assets/image%20%283%29.png)
+
+Attribute Contracts have four parts - the name such as SAML\_SUBJECT. The source and the value. such as "adapter source having a username value". 
+
+![](../../../.gitbook/assets/image%20%284%29.png)
+
+## Core vs Extended Contract Attributes
+
+Example: The HTML Form Adapter contract includes two core attributes: username and policy.action  
+DOCS: [https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html](https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html)
 
 
 
