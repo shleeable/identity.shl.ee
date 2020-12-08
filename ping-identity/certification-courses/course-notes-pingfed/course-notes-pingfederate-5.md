@@ -92,7 +92,7 @@ Attribute Contracts have four parts - the name such as SAML\_SUBJECT. The source
 Example: The HTML Form Adapter contract includes two core attributes: username and policy.action  
 DOCS: [https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html](https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html)
 
-
+ 
 
 
 
