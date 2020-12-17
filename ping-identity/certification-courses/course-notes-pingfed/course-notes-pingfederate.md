@@ -14,13 +14,13 @@
 ### PingFederate Overview:
 
 * Single Sign-On  using SAML/OAUTH/OpenID/SCIM.
-* Authentication Authority  Auth polities /w MFA and directory services intergration.
-* Workspace, Customer, and Partner Identities provides registration/profile management/password reset services.. while connecting to social media authenications methods.
+* Authentication Authority  Auth policies /w MFA and directory services intergration.
+* Workspace, Customer, and Partner Identities provides registration/profile management/password reset services.. while connecting to social media authentications methods.
 
 ### PingFederate Features/Server Roles:
 
 * Identity Provider \(IdP\) Regarding Browser SSO, PingFed can authenticate users \(using login or directory services\) and using industry standard protocols such as SAML/WS-Federation/WS-Trust, PingFed can build _outbound assertions_ for supported applications. 
-* Service Provider \(SP\) PingFed supports accepting _inbound assertions_ and passing the _user attributes_ from these assertions. Example: Using Social media profiles \(Twitter\) using the supported OpenID connectors. 
+* Service Provider \(SP\) PingFed supports accepting _inbound assertions_ and passing the _user attributes_ from these assertions. Example: Logging in using Social media profiles \(Twitter\) or similar using supported OpenID connectors. 
 * Account Provisioning PingFed supports SCIM to create/manage user accounts. As an IdP, PingFed can create user accounts on outbound SPs. 
 * OAuth 2.0 Protocol PingFed supports acting as a Oauth Authorization Server. "Allows a research owner, to grant auth to a client requesting access to a resource protected by a resource server"....  Example: SaaS provider wants access to social media account resources. 
 * OpenID Connect \(Identity Layer built on OAuth 2.0\) Provides access to user information. "Who is making the request?" 
