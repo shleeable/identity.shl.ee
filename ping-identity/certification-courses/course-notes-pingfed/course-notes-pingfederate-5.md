@@ -6,7 +6,7 @@
 
 PingFed Data stores represent systems outside of PingFed where user objects, attributes and other data are stored.
 
-When an external data store is defined, you can configure PingFed to retrieve user attributes from data stores for contract fulfillment and token authorization for various usecases.
+When an external data store is defined, you can configure PingFed to retrieve user attributes from data stores for contract fulfillment and token authorization for various use-cases.
 
 Note: All Data Stores are tested on a scheduled basis. You can modify this interval in seconds in the Data Stores Screen. `Data-Store Validation Interval (Secs)` defaults to 300 seconds or 5 minutes.
 
