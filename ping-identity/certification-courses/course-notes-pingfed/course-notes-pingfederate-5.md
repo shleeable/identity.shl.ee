@@ -2,7 +2,7 @@
 
 ## Data Stores
 
-* System -&gt; External systems -&gt; Data Stores under the External systems catagory.
+* System -&gt; External systems -&gt; Data Stores under the External systems category.
 
 PingFed Data stores represent systems outside of PingFed where user objects, attributes and other data are stored.
 
