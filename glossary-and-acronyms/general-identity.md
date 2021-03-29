@@ -4,10 +4,10 @@
 
 |  |  |
 | :--- | :--- |
-| \*\*\*\*[**\(CIAM\)** Customer Identity & Access Management](../pages/details/ciam-customer-identity-and-access-management.md) | ? |
-| \*\*\*\*[**\(OTP\)** One-Time Password](../pages/details/otp-one-time-password.md) | A single-use unique string that is generated somewhere and required to be confirmed by the user to prove authentication. Generally with a short timeout period. |
-| **\(HSM\)** hardware Security Module |  |
-| **\(LDAP\)** Lightweight Directory Access Protocol |  |
+| \*\*\*\*[**\(CIAM\)** Customer Identity & Access Management](../pages/general/ciam-customer-identity-and-access-management.md) | ? |
+| \*\*\*\*[**\(OTP\)** One-Time Password](../pages/general/otp-one-time-password.md) | A single-use unique string that is generated in a singlular point, and required to be confirmed by the user to prove authentication. Generally with a short timeout period. |
+| \*\*\*\*[**\(HSM\)** hardware Security Module](../pages/general/hsm-hardware-security-module.md) |  |
+| \*\*\*\*[**\(LDAP\)** Lightweight Directory Access Protocol](../pages/general/ldap-lightweight-directory-access-protocol.md) |  |
 | **\(SCIM\)** System for Cross-domain Identity Management | also known as Simple Cloud Identity Management. |
 | **\(OIDC\)** OpenID Connect |  |
 | **\(JWT\)** JSON Web Tokens |  |
