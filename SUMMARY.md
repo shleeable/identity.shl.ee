@@ -10,6 +10,7 @@
 * [IOT](glossary-and-acronyms/iot.md)
 * [CDR \(Consumer Data Right\)](glossary-and-acronyms/cdr-consumer-data-right.md)
 * [Standard Organizations](glossary-and-acronyms/standard-organizations.md)
+* [OAuth](glossary-and-acronyms/oauth.md)
 
 ## Ping Identity
 
