@@ -24,3 +24,7 @@
   * [Course Notes – PingAccess](ping-identity/certification-courses/course-notes-pingaccess.md)
   * [Course Notes – PingDirectory](ping-identity/certification-courses/course-notes-pingdirectory.md)
 
+## Other
+
+* [External resources](other/external-resources.md)
+
