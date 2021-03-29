@@ -15,9 +15,9 @@
 ## Pages
 
 * [General](pages/general/README.md)
+  * [\(CIAM\) Customer Identity & Access Management](pages/general/ciam-customer-identity-and-access-management.md)
   * [\(HSM\) hardware Security Module](pages/general/hsm-hardware-security-module.md)
   * [\(OTP\) One-Time Password](pages/general/otp-one-time-password.md)
-  * [\(CIAM\) Customer Identity & Access Management](pages/general/ciam-customer-identity-and-access-management.md)
   * [\(LDAP\) Lightweight Directory Access Protocol](pages/general/ldap-lightweight-directory-access-protocol.md)
 
 ## Ping Identity
