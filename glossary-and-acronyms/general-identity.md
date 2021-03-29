@@ -82,9 +82,7 @@
     </tr>
     <tr>
       <td style="text-align:left"><b>SCIM</b> System for Cross-domain Identity Management</td>
-      <td style="text-align:left">
-        <p>also known as Simple Cloud Identity Management.</p>
-        <p></p>
+      <td style="text-align:left"><p>also known as Simple Cloud Identity Management.</p>
       </td>
     </tr>
     <tr>
@@ -97,6 +95,3 @@
     </tr>
   </tbody>
 </table>
-
-
-
