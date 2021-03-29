@@ -11,6 +11,7 @@
 | \*\*\*\*[**\(SCIM\)** System for Cross-domain Identity Management](../pages/general/scim-system-for-cross-domain-identity-management.md) | also known as Simple Cloud Identity Management. |
 | \*\*\*\*[**\(OIDC\)** OpenID Connect](../pages/general/oidc-openid-connect.md) |  |
 | \*\*\*\*[**\(JWT\)** JSON Web Tokens](../pages/general/jwt-json-web-tokens.md) |  |
+| [\(**SPA**\) Single-Page Web Application](../pages/general/spa-single-page-web-application.md) |  |
 
 ## Specific
 

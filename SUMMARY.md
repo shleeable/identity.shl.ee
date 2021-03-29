@@ -15,6 +15,7 @@
 ## Pages
 
 * [General](pages/general/README.md)
+  * [\(SPA\) Single-Page Web Application](pages/general/spa-single-page-web-application.md)
   * [\(CIAM\) Customer Identity & Access Management](pages/general/ciam-customer-identity-and-access-management.md)
   * [\(HSM\) hardware Security Module](pages/general/hsm-hardware-security-module.md)
   * [\(OTP\) One-Time Password](pages/general/otp-one-time-password.md)
