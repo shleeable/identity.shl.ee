@@ -1,5 +1,7 @@
 # General Identity
 
+## Common
+
 |  |  |
 | :--- | :--- |
 | **CIAM** Customer Identity & Access Management | ? |
@@ -18,8 +20,14 @@
 | **SPML** Service Provisioning Markup Language |  |
 | **ACDC** Authorization Cross Domain Code | [https://openid.bitbucket.io/draft-acdc-01.html](https://openid.bitbucket.io/draft-acdc-01.html) |
 | **JOSE** JSON Object Signing and Encryption |  |
-| **COSE** CBOR Object Signing and Encryption | [https://tools.ietf.org/html/rfc8152](https://tools.ietf.org/html/rfc8152) |
 | **SCIM** System for Cross-domain Identity Management | also known as Simple Cloud Identity Management. |
 | **OIDC** OpenID Connect |  |
 | **JWT** JSON Web Tokens |  |
+
+## Specific
+
+|  |  |
+| :--- | :--- |
+| **COSE** CBOR Object Signing and Encryption | [https://tools.ietf.org/html/rfc8152](https://tools.ietf.org/html/rfc8152) |
+|  |  |
 
