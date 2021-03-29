@@ -5,7 +5,6 @@
 ## Glossary and Acronyms
 
 * [General Identity](glossary-and-acronyms/general-identity.md)
-* [Untitled](glossary-and-acronyms/untitled.md)
 * [Crypto / PKI](glossary-and-acronyms/crypto-pki.md)
 * [‌Microsoft Windows](glossary-and-acronyms/microsoft-windows.md)
 * [IOT](glossary-and-acronyms/iot.md)
