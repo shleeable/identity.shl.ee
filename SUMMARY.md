@@ -12,6 +12,12 @@
 * [Standard Organizations](glossary-and-acronyms/standard-organizations.md)
 * [OAuth](glossary-and-acronyms/oauth.md)
 
+## Pages
+
+* [Details](pages/details/README.md)
+  * [\(OTP\) One-Time Password](pages/details/otp-one-time-password.md)
+  * [\(CIAM\) Customer Identity & Access Management](pages/details/ciam-customer-identity-and-access-management.md)
+
 ## Ping Identity
 
 * [Certification / Courses](ping-identity/certification-courses/README.md)
