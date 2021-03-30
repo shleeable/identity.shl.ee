@@ -80,9 +80,9 @@ Using the `ldap.properties.file` add the following attributes
 
 Licenses can expire, and a new license can be uploaded using the console without restarting the instance.
 
-* Server Configuration -&gt; Licence Management \(under administrative function\) -&gt; Upload new licence -&gt; click Import -&gt; Confirm Import - &gt; Click Save
+* Server Configuration -&gt; License Management \(under administrative function\) -&gt; Upload new license -&gt; click Import -&gt; Confirm Import - &gt; Click Save
 
-A copy of the previous licence are stored as backup in the &lt;PingFed/server/conf&gt; folder. 
+A copy of the previous license are stored as backup in the &lt;PingFed/server/conf&gt; folder. 
 
 ![](../../../.gitbook/assets/image%20%281%29.png)
 

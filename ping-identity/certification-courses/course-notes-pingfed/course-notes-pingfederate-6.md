@@ -7,3 +7,5 @@ Adapters are Plugins for PingFed - Java JAR files used to integrate PingFed with
 * First Mile Integration: IdP Adapters, Directory/Database Adapters
 * Last Mile Integration: SP Adpaters, Customer Apps, WebApps
 
+
+
