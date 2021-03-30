@@ -88,7 +88,7 @@ Multiple connections might use a single adapter, but have common attributes shar
 
 The Attribute Mapping screens share a common design. The same layout can be expected on SP Connections/IdP Connections/Access Token Management screens.
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../../.gitbook/assets/image%20%286%29.png)
 
 Attribute Contracts have four parts - the name such as `SAML_SUBJECT`. The source and the value. such as "adapter `SAML_SUBJECT` addribute source being an adapters username value". 
 
@@ -102,7 +102,7 @@ Attribute Contracts have four parts - the name such as `SAML_SUBJECT`. The sourc
 
 **Example**: The HTML Form Adapter contract includes two core attributes: username and policy.action
 
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](../../../.gitbook/assets/image%20%285%29.png)
 
 DOCS: [https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html](https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html)
 
