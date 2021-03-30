@@ -32,8 +32,9 @@ Deployment as Stand Alone server \(direct to the internet/DMZ\) or via a reverse
 
 PingFed can be installed as Cluster - Multiple "Runtime Engine" with one Adminstrative Console.
 
-Starting with PingFed 9.0, Adaptive Clusters support "dynamic discovery of cluster nodes". User state is stored in redundant replica sets.   
-Cluster dynamic discover supports AWS EC2/S3/OpenStack Swift. allows for nodes to join/leave public and private cloud services. 
+Starting with PingFed 9.0, Adaptive Clusters support "dynamic discovery of cluster nodes". User state is stored in redundant replica sets.
+
+Cluster dynamic discover supports AWS EC2/S3/OpenStack Swift. Allows for nodes to join/leave when using both public/private cloud services. 
 
 ### PingFed Ecosystem
 
