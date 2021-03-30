@@ -2,7 +2,7 @@
 
 ## **Administrative Console Introduction**
 
-* Login to the admin console. `https://pf.int.course-ping.com:9999:/pingfederate/app`
+* Login to the admin console. `https://pf.int.course-ping.com:9999/pingfederate/app`
 * On the left of the console, each enabled server role should be displayed. Server Configuration should be shown below.
 
 ![Administrator Menu with all three roles enabled.](../../../.gitbook/assets/image.png)

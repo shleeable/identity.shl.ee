@@ -4,7 +4,7 @@
 
 * System -&gt; External systems -&gt; Data Stores under the External systems category.
 
-PingFed Data stores represent systems outside of PingFed where user objects, attributes and other data are stored.
+PingFed "Data Stores" represent systems outside of PingFed where user objects, attributes and other data are stored.
 
 When an external data store is defined, you can configure PingFed to retrieve user attributes from data stores for contract fulfillment and token authorization for various use-cases.
 

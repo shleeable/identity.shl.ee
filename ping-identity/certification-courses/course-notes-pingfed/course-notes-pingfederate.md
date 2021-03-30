@@ -102,9 +102,9 @@ For _Windows_, use the MSI.
 For _RHEL_, use bash install script to automatically download/install as a daemon using systemd.  
 For _all other Linux OSes_, there is a full distro zip. Configuration/daemon setup must be done manually.
 
-### Notes: PingFed Start up files
+### Notes: PingFed Start-Up files
 
-* run.sh and run.bat in the &lt;install path/bin&gt; folder \(to m $$a = b$$ anually start the server in a console\)
+* run.sh and run.bat in the &lt;install path/bin&gt; folder \(to manually start the server in a console\)
 * run.properties \(contains settings that are only applied at startup\)
 
 ### Installation Tasks on Windows Server
