@@ -63,6 +63,7 @@ PingFed requires the JDBC driver to be installed for the DB you wish to use. The
 ## Attribute Mapping
 
 Attribute mapping is used to associate properties about the specific user with their current login session.  
+  
 Attributes can be sent to a SP partner as part of an SSO transaction, or used to create an authentication or identity token via the OAuth Authorization server.
 
 ### Attribute Contracts
@@ -83,16 +84,29 @@ Multiple connections might use a single adapter, but have common attributes shar
 
 ![](../../../.gitbook/assets/image%20%283%29.png)
 
-Attribute Contracts have four parts - the name such as SAML\_SUBJECT. The source and the value. such as "adapter source having a username value". 
+## Attribute Mapping Screens
+
+The Attribute Mapping screens share a common design. The same layout can be expected on SP Connections/IdP Connections/Access Token Management screens.
+
+![](../../../.gitbook/assets/image%20%285%29.png)
+
+Attribute Contracts have four parts - the name such as `SAML_SUBJECT`. The source and the value. such as "adapter `SAML_SUBJECT` addribute source being an adapters username value". 
 
 ![](../../../.gitbook/assets/image%20%284%29.png)
 
 ## Core vs Extended Contract Attributes
 
-Example: The HTML Form Adapter contract includes two core attributes: username and policy.action  
+`Core Contract` are values which are always provided/present even if they're not used
+
+`Extend the Contract` are additional attributes added manually and can be added/removed on demand.
+
+**Example**: The HTML Form Adapter contract includes two core attributes: username and policy.action
+
+![](../../../.gitbook/assets/image%20%286%29.png)
+
 DOCS: [https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html](https://docs.pingidentity.com/bundle/pingfederate-93/page/dri1564003022949.html)
 
- 
+
 
 
 
