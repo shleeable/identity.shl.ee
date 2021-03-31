@@ -15,7 +15,7 @@ PingFederate comes bundled with a set of adapters built-in.
 
 * **HTML Form Adapter**: Used with \(PCV\) "password credential validators". Provides integration with LDAP datastores or direct user login using credentials maintained by PingFed.
 * **HTTP Basic Adapter**: + Similar to HTML Form above.
-* **Kerberos Adapter**: Provides desktop SSO experience for Windows environments. Supports \(AMA\) "Authentication Mechanism Assurance", and is recommended for new configurations over the existing \(IWA\) "Integrated Windows Authentication" Integration kit offering.
+* **Kerberos Adapter**: Provides desktop SSO experience for Windows environments. Supports \(AMA\) "Authentication Mechanism Assurance", and is recommended for new configurations over the existing/legacy \(IWA\) "Integrated Windows Authentication" Integration kit.
 * **OpenToken Adapter:** Generic Interface to connect with standard applications \(Java/.Net\)
 * **Composite Adapter:** Allows multiple configured IdP Adapters to execute in sequence. This is called "Adapter Chaining" may be used for single Adapter usage, or to support MFA via a series of adapters.
 
