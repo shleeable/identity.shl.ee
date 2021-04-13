@@ -1,0 +1,2 @@
+# Delegated Admin Attribute Categories
+

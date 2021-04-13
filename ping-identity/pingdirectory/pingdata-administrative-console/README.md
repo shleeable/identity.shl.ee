@@ -4,16 +4,16 @@
 
 ### Web Services and Applications
 
-* **Consent Definitions** 
+* \*\*\*\*[**Consent Definitions**](consent-definitions.md)\*\*\*\*
   * A Consent Definition represents a type of consent to share data.
   * Each Consent Definition represents an individual's consent to share particular data \(the "what"\) for a particular purpose \(the "why"\). Consent Definitions always should have one or more child Consent Definition Localizations, which contain the localized text that is presented to an individual when collecting consent. 
-* **Consent Service** 
+* \*\*\*\*[**Consent Service**](consent-service.md)\*\*\*\*
   * The Consent Service contains the properties that affect the overall operation of the Directory Server Consent API. 
-* **Constructed Attributes** 
+* \*\*\*\*[**Constructed Attributes**](constructed-attributes.md)\*\*\*\*
   * A constructed attribute constructs values for an attribute by using a combination of fixed text and values of other attributes from the entry. Note that just creating one of these objects will not have any effect. The object must be referenced from another configuration object such as a Delegated Admin Resource Type. 
-* **Delegated Admin Attribute Categories**
+* \*\*\*\*[**Delegated Admin Attribute Categories**](delegated-admin-attribute-categories.md)\*\*\*\*
   * A Delegated Admin Attribute Category defines a collection of attributes which belong together. Attributes in the same Delegated Admin Attribute Category are grouped together when displayed to the end user. 
-* **Delegated Admin Rights**
+* \*\*\*\*[**Delegated Admin Rights**](delegated-admin-rights.md)\*\*\*\*
   * A Delegated Admin Rights defines a user, or group of users, who can manage resources through the Delegated Admin API. ****
 * **HTTP Configuration**
   * The HTTP Configuration provides the configuration for the Directory Server HTTP service. ****
