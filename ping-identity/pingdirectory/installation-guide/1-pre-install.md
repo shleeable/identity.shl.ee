@@ -1,4 +1,4 @@
-# Installation Bootstrap
+# 1\) Pre-install
 
 ## Install Java \(Amazon Corretto 11 on Amazon Linux 2\)
 
@@ -11,6 +11,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 ## Install userland dependencies \(Amazon Linux 2\)
 
 ```text
+# Install sysstat - Why?
+# Install gdb - Why?
+# Install dstat -  Why?
 sudo yum install sysstat gdb dstat -y
 ```
 
@@ -21,5 +24,10 @@ sudo yum install sysstat gdb dstat -y
 echo "vm.swappiness = 0" > /etc/sysctl.conf
 ```
 
+## Create group and user
 
+```text
+groupadd --gid 9999 identity 
+useradd --uid 9031 --gid identity --shell /bin/false ping
+```
 

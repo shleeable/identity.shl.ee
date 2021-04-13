@@ -42,7 +42,11 @@
 ## Ping Identity
 
 * [PingDirectory](ping-identity/pingdirectory/README.md)
-  * [Installation Bootstrap](ping-identity/pingdirectory/installation-bootstrap.md)
+  * [Installation Guide](ping-identity/pingdirectory/installation-guide/README.md)
+    * [1\) Pre-install](ping-identity/pingdirectory/installation-guide/1-pre-install.md)
+    * [2\) Install](ping-identity/pingdirectory/installation-guide/2-install.md)
+    * [3\) Replication](ping-identity/pingdirectory/installation-guide/3-replication.md)
+    * [4\) dsconfig](ping-identity/pingdirectory/installation-guide/4-dsconfig.md)
   * [PingData Administrative Console](ping-identity/pingdirectory/pingdata-administrative-console/README.md)
     * [Consent Definitions](ping-identity/pingdirectory/pingdata-administrative-console/consent-definitions.md)
     * [Consent Service](ping-identity/pingdirectory/pingdata-administrative-console/consent-service.md)
