@@ -52,7 +52,7 @@ PingAccess - Identity enabled access management product. protects webapps/APIs b
   * Windows Server 2016/2019
   * Docker 19.03.5
   * Amazon Linux 2
-  * Apline 3.10 
+  * Alpine 3.10 
 * Hardware Requirements
   * Minimum recommendations
     * multi core Intel xeon. 4 CPU/cores or higher

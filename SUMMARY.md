@@ -41,6 +41,11 @@
 
 ## Ping Identity
 
+* [PingDirectory](ping-identity/pingdirectory/README.md)
+  * [Installation Bootstrap](ping-identity/pingdirectory/installation-bootstrap.md)
+  * [PingData Administrative Console](ping-identity/pingdirectory/pingdata-administrative-console/README.md)
+    * [Consent Definitions](ping-identity/pingdirectory/pingdata-administrative-console/consent-definitions.md)
+    * [Consent Service](ping-identity/pingdirectory/pingdata-administrative-console/consent-service.md)
 * [Certification / Courses](ping-identity/certification-courses/README.md)
   * [Course Notes - PingFed](ping-identity/certification-courses/course-notes-pingfed/README.md)
     * [Course Notes - PingFederate 1](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate.md)
