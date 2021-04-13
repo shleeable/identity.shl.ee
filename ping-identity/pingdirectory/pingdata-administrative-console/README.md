@@ -100,34 +100,60 @@
 ### Logging, Monitoring, and Notifications
 
 * Account Status Notification Handlers
+  * 
 * Alarm Manager
+  * 
 * Alert Handlers
+  * 
 * Gauges
+  * 
 * Gauge Data Sources
+  * 
 * LDAP SDK Debug Logger
+  * 
 * Log Field Mappings
+  * 
 * Log File Rotation Listeners
+  * 
 * Log Publishers
+  * 
 * Log Retention Policies
+  * 
 * Log Rotation Policies
+  * 
 * Monitor Providers
+  * 
 * Monitoring Endpoints
+  * 
 
 ### Security and Authorization
 
 * Access Control Handler
+  * 
 * Access Token Validators
+  * 
 * Cipher Stream Providers
+  * 
 * Data Security Auditors
+  * 
 * Key Manager Providers
+  * 
 * Key Pairs
+  * 
 * OAuth Token Handlers
+  * 
 * OTP Delivery Mechanisms
+  * 
 * Obscured Values
+  * 
 * Sensitive Attributes
+  * 
 * Trust Manager Providers
+  * 
 * Trusted Certificates
+  * 
 * Vault Authentication Methods
+  * 
 
 ### Connection and Operation Classification
 
