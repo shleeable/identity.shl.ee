@@ -15,24 +15,24 @@
   * A Delegated Admin Attribute Category defines a collection of attributes which belong together. Attributes in the same Delegated Admin Attribute Category are grouped together when displayed to the end user. 
 * \*\*\*\*[**Delegated Admin Rights**](delegated-admin-rights.md)\*\*\*\*
   * A Delegated Admin Rights defines a user, or group of users, who can manage resources through the Delegated Admin API. ****
-* **HTTP Configuration**
+* \*\*\*\*[**HTTP Configuration**](untitled-35.md)\*\*\*\*
   * The HTTP Configuration provides the configuration for the Directory Server HTTP service. ****
-* **HTTP Servlet Cross Origin Policies**
+* \*\*\*\*[**HTTP Servlet Cross Origin Policies**](untitled-34.md)\*\*\*\*
   * This object describes a configuration for handling Cross-Origin HTTP requests using the Cross Origin Resource Sharing \(CORS\) protocol. An instance of HTTP Servlet Cross Origin Policy can be associated with zero or more HTTP Servlet Extensions to set the Cross-Origin policy for those servlets. ****
-* **HTTP Servlet Extensions**
+* \*\*\*\*[**HTTP Servlet Extensions**](untitled-33.md)\*\*\*\*
   * HTTP Servlet Extensions may be used to define classes and initialization parameters that should be used for a servlet invoked by an HTTP connection handler. ****
-* **REST Resource Types**
+* \*\*\*\*[**REST Resource Types**](untitled-32.md)\*\*\*\*
   * A REST Resource Type defines a specific type of resource exposed by the Delegated Admin HTTP servlet extension, and accessible through the Delegated Admin application. ****
-* **SCIM Resource Types**
+* \*\*\*\*[**SCIM Resource Types**](untitled-31.md)\*\*\*\*
   * SCIM Resource Types provide a view of a class of Directory entries over a SCIM2 interface. The SCIM Resource Type determines the attributes that can be accessed by a client application. ****
-* **SCIM Schemas**
+* \*\*\*\*[**SCIM Schemas**](untitled-30.md)\*\*\*\*
   * SCIM Schemas defines a SCIM schema comprising a set of attributes. ****
-* **Web Application Extensions**
+* \*\*\*\*[**Web Application Extensions**](untitled-29.md)\*\*\*\*
   * Web Application Extensions may be used to define web applications to be hosted by the server. ****
 
 ### Core
 
-* **Client Connection Policies**
+* \*\*\*\*[**Client Connection Policies**](untitled-28.md)\*\*\*\*
   * A Client Connection Policy is used to classify a client connection based on the client address, protocol, identity, and whether it is using a secure communication mechanism. It may be used to control which types of operations that client may perform and the types of data that it may access. 
 * **Connection Handlers**
   * Connection Handlers are responsible for handling all interaction with the clients, including accepting the connections, reading requests, and sending responses. 

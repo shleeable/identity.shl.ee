@@ -1,2 +1,2 @@
-# Untitled
+# SCIM Resource Types
 
