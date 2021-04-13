@@ -157,22 +157,22 @@
 
 ### Connection and Operation Classification
 
-* **Connection Criteria**
+* \*\*\*\*[**Connection Criteria**](connection-criteria.md)\*\*\*\*
   * Connection Criteria define sets of criteria for grouping and describing client connections based on a number of properties, including the protocol, client address, connection security, and authentication state for the connection. 
-* **Request Criteria**
+* \*\*\*\*[**Request Criteria**](request-criteria.md)\*\*\*\*
   * Request Criteria define sets of criteria for grouping and describing operation requests based on a number of properties, including properties for the associated client connection, the type of operation, target entry, request controls, target attributes, and other operation-specific items. 
-* **Result Criteria**
+* \*\*\*\*[**Result Criteria**](result-criteria.md)\*\*\*\*
   * Result Criteria define sets of criteria for grouping and describing operation results based on a number of properties, including properties of the associated client connection and operation request, the result code, response controls, privileges missing or used, and other operation-specific items. 
-* **Search Entry Criteria**
+* \*\*\*\*[**Search Entry Criteria**](search-entry-criteria.md)\*\*\*\*
   * Search Entry Criteria define sets of criteria for grouping and describing search result entries based on a number of properties, including properties of the associated client connection and operation request, the entry location and contents, and included controls. 
-* **Search Reference Criteria**
+* \*\*\*\*[**Search Reference Criteria**](search-reference-criteria.md)\*\*\*\*
   * Search Reference Criteria define sets of criteria for grouping and describing search result references based on a number of properties, including properties of the associated client connection and operation request, the reference contents, and included controls.
 
 ### Replication
 
-* **Replication Assurance Policies**
+* \*\*\*\*[**Replication Assurance Policies**](replication-assurance-policies.md)\*\*\*\*
   * A Replication Assurance Policy is used to specify the local and remote replication assurance levels and a timeout to use for update operations. Optionally, request and connection criteria can be configured in the policy to allow matching a policy to requests that satisfy such criteria. 
-* **Synchronization Providers**
+* \*\*\*\*[**Synchronization Providers**](synchronization-providers.md)\*\*\*\*
   * Synchronization Providers are responsible for handling synchronization of the Directory Server data with other Directory Server instances or other data repositories.
 
 ### Topology
