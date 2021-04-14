@@ -41,6 +41,12 @@
 
 ## Ping Identity
 
+* [PingFederate](ping-identity/pingfederate/README.md)
+  * [Installation Guide](ping-identity/pingfederate/installation-guide/README.md)
+    * [1\) Pre-install](ping-identity/pingfederate/installation-guide/1-pre-install.md)
+    * [2\) Install](ping-identity/pingfederate/installation-guide/2-install.md)
+    * [3\) Cluster](ping-identity/pingfederate/installation-guide/3-cluster.md)
+    * [4\) ?](ping-identity/pingfederate/installation-guide/4.md)
 * [PingDirectory](ping-identity/pingdirectory/README.md)
   * [Installation Guide](ping-identity/pingdirectory/installation-guide/README.md)
     * [1\) Pre-install](ping-identity/pingdirectory/installation-guide/1-pre-install.md)
