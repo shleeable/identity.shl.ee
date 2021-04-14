@@ -8,12 +8,11 @@ sudo yum install java-11-amazon-corretto -y
 sudo tee -a /etc/profile.d/jdk_home.sh << END
 #!/bin/sh
 export JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto.x86_64"
-export PATH=${JAVA_HOME}/bin:$PATH
 END
 
 ```
 
-## Install userland dependencies \(Amazon Linux 2\)
+## Install Userland Dependencies \(RHEL/Centos/Amazon Linux 2\)
 
 ```text
 # Install sysstat - Why?
