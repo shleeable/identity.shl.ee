@@ -4,8 +4,13 @@
 
 ```text
 sudo yum install java-11-amazon-corretto -y
-export JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto.x86_64/"
-export PATH=$JAVA_HOME/bin:$PATH
+
+sudo tee -a /etc/profile.d/jdk_home.sh << END
+#!/bin/sh
+export JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto.x86_64"
+export PATH=${JAVA_HOME}/bin:$PATH
+END
+
 ```
 
 ## Install userland dependencies \(Amazon Linux 2\)
