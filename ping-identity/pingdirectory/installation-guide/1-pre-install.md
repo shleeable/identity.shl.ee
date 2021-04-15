@@ -35,3 +35,29 @@ groupadd --gid 9999 identity
 useradd --uid 9031 --gid identity --shell /bin/false ping
 ```
 
+## Extract PingDirectory zip to /opt/ping/pingdirectory
+
+Excluding Windows & unrequired files.
+
+```text
+unzip /tmp/PingDirectory-8.2.0.3.zip -d /tmp/ \
+        -x *.bat \
+        -x *.dll \
+        -x *.exe \
+        -x */start-ds \
+        -x */stop-ds \
+        -x */uninstall \
+        -x */webapps/* \
+        -x */resource/*.zip \
+        -x */_script-util.sh \
+        -x */lib/wrapper.jar \
+    && find /tmp/PingDirectory/docs -type f \
+        ! -iname "unboundid.css" \
+        ! -path "/tmp/PingDirectory/docs/images/*" \
+        ! -path "/tmp/PingDirectory/docs/rest-api-specs/*" \
+        -delete \
+    && mv /tmp/PingDirectory /opt/ping/pingdirectory
+```
+
+
+
