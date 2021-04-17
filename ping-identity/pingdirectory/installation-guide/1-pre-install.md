@@ -10,6 +10,7 @@ sudo tee -a /etc/profile.d/jdk_home.sh << END
 export JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto.x86_64"
 END
 
+source /etc/profile.d/jdk_home.sh
 ```
 
 ## Install Userland Dependencies \(RHEL/Centos/Amazon Linux 2\)
