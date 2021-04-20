@@ -36,6 +36,17 @@ groupadd --gid 9999 identity
 useradd --uid 9031 --gid identity --shell /bin/false ping
 ```
 
+## Ping ENV
+
+```text
+sudo tee -a /etc/profile.d/ping_env.sh << END
+#!/bin/sh
+export PF_HOME="/home/ec2-user/pingfederate-10.2.2/pingfederate"
+END
+
+source /etc/profile.d/ping_env.sh
+```
+
 ## Extract PingDirectory zip to /opt/ping/pingdirectory
 
 Excluding Windows & unrequired files.
