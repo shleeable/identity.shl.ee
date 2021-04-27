@@ -41,7 +41,7 @@
 
 ## Ping Identity
 
-* [PingFederate](ping-identity/pingfederate/README.md)
+* [PingFederate 10.2](ping-identity/pingfederate/README.md)
   * [Installation Guide](ping-identity/pingfederate/installation-guide/README.md)
     * [1\) Pre-install](ping-identity/pingfederate/installation-guide/1-pre-install.md)
     * [2\) Install](ping-identity/pingfederate/installation-guide/2-install.md)
@@ -135,7 +135,7 @@
     * [Server Instances](ping-identity/pingdirectory/pingdata-administrative-console/server-instances.md)
     * [Topology Admin Users](ping-identity/pingdirectory/pingdata-administrative-console/topology-admin-users.md)
 * [Certification / Courses](ping-identity/certification-courses/README.md)
-  * [Course Notes - PingFed](ping-identity/certification-courses/course-notes-pingfed/README.md)
+  * [Course Notes - PingFed 10.2](ping-identity/certification-courses/course-notes-pingfed/README.md)
     * [Course Notes - PingFederate 1](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate.md)
     * [Course Notes - PingFederate 2](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate-2.md)
     * [Course Notes - PingFederate 3](ping-identity/certification-courses/course-notes-pingfed/course-notes-pingfederate-3.md)
