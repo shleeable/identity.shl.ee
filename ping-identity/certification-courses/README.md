@@ -27,8 +27,8 @@
 Presales Technical Enablement [https://education.pingidentity.com/learn/lp/60/Presales%2520Technical%2520Enablement](https://education.pingidentity.com/learn/lp/60/Presales%2520Technical%2520Enablement)  
 Delivery Technical Enablement [https://education.pingidentity.com/learn/lp/62/Delivery%2520Technical%2520Enablement](https://education.pingidentity.com/learn/lp/62/Delivery%2520Technical%2520Enablement)
 
-Introduction to PingFederate [https://education.pingidentity.com/learn/lp/39/Introduction%2520to%2520PingFederate](https://education.pingidentity.com/learn/lp/39/Introduction%2520to%2520PingFederate)  
-Introduction to PingAccess 6.1 [https://education.pingidentity.com/learn/lp/83/PingAccess%25206.1%2520Introduction%2520to%2520Administration](https://education.pingidentity.com/learn/lp/83/PingAccess%25206.1%2520Introduction%2520to%2520Administration)  
+Introduction to PingFederate 10.0 [https://education.pingidentity.com/learn/lp/39/Introduction%2520to%2520PingFederate](https://education.pingidentity.com/learn/lp/39/Introduction%2520to%2520PingFederate)  
+Introduction to PingAccess 6.2 [https://education.pingidentity.com/learn/lp/83/PingAccess%25206.1%2520Introduction%2520to%2520Administration](https://education.pingidentity.com/learn/lp/83/PingAccess%25206.1%2520Introduction%2520to%2520Administration)  
 Introduction to PingAccess 5.2 [https://education.pingidentity.com/learn/lp/40/Introduction%2520to%2520PingAccess%25205.2](https://education.pingidentity.com/learn/lp/40/Introduction%2520to%2520PingAccess%25205.2)  
 PingDataGovernance 8.1 [https://education.pingidentity.com/learn/lp/88/PingDataGovernance%25208.1](https://education.pingidentity.com/learn/lp/88/PingDataGovernance%25208.1)  
 Introduction to PingDirectory [https://education.pingidentity.com/learn/lp/37/Introduction%2520to%2520PingDirectory](https://education.pingidentity.com/learn/lp/37/Introduction%2520to%2520PingDirectory)  
@@ -38,6 +38,8 @@ Introduction to PingID [https://education.pingidentity.com/learn/lp/65/Introduct
 New Product Features & Webinars [https://education.pingidentity.com/learn/lp/64/New%2520Product%2520Features%2520%2526%2520Webinars](https://education.pingidentity.com/learn/lp/64/New%2520Product%2520Features%2520%2526%2520Webinars)  
 Introduction to PingIntelligence [https://education.pingidentity.com/learn/lp/71/Introduction%2520to%2520PingIntelligence](https://education.pingidentity.com/learn/lp/71/Introduction%2520to%2520PingIntelligence)  
 Knowledge Sushi [https://education.pingidentity.com/learn/learning\_plan/view/75/knowledge-sushi-videos](https://education.pingidentity.com/learn/learning_plan/view/75/knowledge-sushi-videos) \(Dead link?\)
+
+
 
 **I don’t have access to the material/I have access but the learning plans aren’t working/I have access but the courses are locked to me…\(or anything along these lines\)**  
 Email any issues to [enablepartners@pingidentity.com](mailto:enablepartners@pingidentity.com) and we will troubleshoot!
