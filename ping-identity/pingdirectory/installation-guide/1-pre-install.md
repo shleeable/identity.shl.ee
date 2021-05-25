@@ -26,6 +26,8 @@ sudo yum install sysstat gdb dstat -y
 
 ```text
 #Confirm the vm.swappiness is 0.
+#Expect errors similar to "The Linux kernel parameter vm.swappiness is set to '60' instead of '0'."
+
 echo "vm.swappiness = 0" > /etc/sysctl.conf
 ```
 
@@ -49,27 +51,20 @@ source /etc/profile.d/ping_env.sh
 
 ## Extract PingDirectory zip to /opt/ping/pingdirectory
 
-Excluding Windows & unrequired files.
+Excluding Windows files
 
 ```text
-unzip /tmp/PingDirectory-8.2.0.3.zip -d /tmp/ \
+unzip /tmp/pingdir.zip -d /tmp/ \
         -x *.bat \
         -x *.dll \
-        -x *.exe \
-        -x */start-ds \
-        -x */stop-ds \
-        -x */uninstall \
-        -x */webapps/* \
-        -x */resource/*.zip \
-        -x */_script-util.sh \
-        -x */lib/wrapper.jar \
-    && find /tmp/PingDirectory/docs -type f \
-        ! -iname "unboundid.css" \
-        ! -path "/tmp/PingDirectory/docs/images/*" \
-        ! -path "/tmp/PingDirectory/docs/rest-api-specs/*" \
-        -delete \
+        -x *.exe
     && mv /tmp/PingDirectory /opt/ping/pingdirectory
 ```
 
+## Generate safe Passwords
 
+```text
+openssl rand -hex 32
+
+```
 
