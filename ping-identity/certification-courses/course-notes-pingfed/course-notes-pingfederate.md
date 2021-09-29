@@ -13,9 +13,9 @@
 
 ### PingFederate Overview:
 
-* Single Sign-On  using SAML/OAUTH/OpenID/SCIM.
-* Authentication Authority  Auth policies /w MFA and directory services intergration.
-* Workspace, Customer, and Partner Identities provides registration/profile management/password reset services.. while connecting to social media authentications methods.
+* **Single Sign-On**  using SAML/OAUTH/OpenID/SCIM.
+* **Authentication Authority**  Auth policies /w MFA and directory services intergration.
+* **Workspace, Customer, and Partner Identities** provides registration/profile management/password reset services.. while connecting to social media authentications methods.
 
 ### PingFederate Features/Server Roles:
 
